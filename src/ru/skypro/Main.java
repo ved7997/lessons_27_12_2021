@@ -33,9 +33,9 @@ public class Main {
                 }
             }
                         //Задание №3
-                    int year = 2008;
+                    int year = ;
 
-                if (year % 4 == 0 && year % 100 != 0) {
+                if (year % 4 == 0 && year % 100 != 0 && year % 400 != 0) {
             System.out.println("год является високосным " + year);
 
                 }else {
